@@ -92,17 +92,21 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             // 
             // dataGridViewResults
             // 
+            this.dataGridViewResults.AllowUserToAddRows = false;
+            this.dataGridViewResults.AllowUserToDeleteRows = false;
             this.dataGridViewResults.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewResults.Location = new System.Drawing.Point(12, 87);
             this.dataGridViewResults.Name = "dataGridViewResults";
+            this.dataGridViewResults.ReadOnly = true;
+            this.dataGridViewResults.RowHeadersVisible = false;
             this.dataGridViewResults.Size = new System.Drawing.Size(451, 230);
             this.dataGridViewResults.TabIndex = 4;
             // 

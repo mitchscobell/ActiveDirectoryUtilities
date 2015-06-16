@@ -19,6 +19,11 @@ namespace ActiveDirectoryLookup
             toolStripStatusLabelVersion.Text = toolStripStatusLabelVersion.Text + Application.ProductVersion;
         }
 
+        /// <summary>
+        /// Button clicked for search
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             string adgroup = textBoxSearchTerms.Text.Trim().ToUpper();
